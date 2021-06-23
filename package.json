@@ -1,0 +1,26 @@
+{
+  "name": "it-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:db": "json-server --watch database.json",
+    "start:app": "parcel ./index.html --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.15.1",
+    "node-sass": "^4.13.1",
+    "parcel-bundler": "^1.10.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "flatpickr": "^4.6.9",
+    "jquery": "^3.6.0",
+    "js-datepicker": "^5.18.0"
+  }
+}
